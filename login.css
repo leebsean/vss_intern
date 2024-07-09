@@ -22,11 +22,9 @@
     background: #fff;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
-    /* margin-left: 30px; */
     box-shadow: 0px 4px 24px 0px #5655D23D;
     width: 569px;
     height: 621px;
@@ -50,7 +48,6 @@
     justify-content: center;
     align-items: flex-start;
     padding-top: -20px;
-
   }
 
   .vss {
@@ -82,20 +79,20 @@
   }
 
   .form_wrapper .inputform input {
-  background: transparent;
-  border: none;
-  outline: none;
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  padding-left: 10px;
-  width: 464px;
-  height: 58px;
-  top: 586px;
-  left: 1308px;
-  gap: 0px;
-  opacity: 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    width: 464px;
+    height: 58px;
+    top: 586px;
+    left: 1308px;
+    gap: 0px;
+    opacity: 0px;
 
   }
 
@@ -172,7 +169,6 @@
   }
 
   .left .leftimg{
-    /* background-image: url(Group\ 18161.svg); */
     position: absolute;
     width: 842.82px;
     height: 613.81px;
@@ -181,45 +177,44 @@
     background-size: cover;
   }
   
- .left .leftbkgr{
-  width: 1251.7px;
-  height: 1080px;
-  top: 1px;
-  left: -2px;
-}
+  .left .leftbkgr{
+    width: 1251.7px;
+    height: 1080px;
+    top: 1px;
+    left: -2px;
+  } 
 
-.left .text1 {
-  position: absolute;
-  width: 735px;
-  height: 55px;
-  top: 811px;
-  left: 220px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Helvetica;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 55.2px;
-  text-align: center;
-  color: #5680F9;
-}
+  .left .text1 {
+    position: absolute;
+    width: 735px;
+    height: 55px;
+    top: 811px;
+    left: 220px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55.2px;
+    text-align: center;
+    color: #5680F9;
+  }
 
-.left .text2 {
+  .left .text2 {
   position: absolute;
   width: 577px;
-height: 30px;
-top: 884px;
-left: 299px;
-gap: 0px;
-opacity: 0px;
-font-family: Quicksand;
-font-size: 24px;
-font-weight: 500;
-line-height: 30px;
-text-align: center;
-color: #5680F9;
-
-}
+  height: 30px;
+  top: 884px;
+  left: 299px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #5680F9;
+  } 
 
 
 
