@@ -4,14 +4,18 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Đăng Nhập</title>
+        <title>Quên mật khẩu</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="login.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
     </head>    
     <body>
+        <script src="login.js">
+
+        </script>
         <div class="left">
             <div class="leftbkgr">
                 <img src="Sprites/Rectangle 9192.svg" alt="">
@@ -19,10 +23,10 @@
             <div class="leftimg">
                 <img src="Sprites/Group 18161.svg" alt="">
             </div>
-            <div class="text1">Hệ thống quản lý chat đa nền tảng</div>
+            <div class="text1" id="test">Hệ thống quản lý chat đa nền tảng</div>
             <div class="text2">Tiết kiệm thời gian tư vấn và chăm sóc khách hàng</div>
         </div>
-        
+
         <div class="form_wrapper">
             <form>
          
@@ -36,14 +40,13 @@
                 
                 <div class="inputform">
                     <div class="tk"><input type="text" id="username" name="username" required placeholder="Nhập tài khoản"><br /></div>
-
                     <div class="mk"><input type="password" id="password" name="password" required placeholder="Nhập mật khẩu"><br /></div>
                 </div>
 
                 <div class="saveForget">
                     <input type="checkbox" id="check">
                     <label for="check">Lưu mật khẩu</label>
-                    <a href="forgotPW">Quên mật khẩu?</a>
+                    <a href="forgotPW.html">Quên mật khẩu?</a>
                 </div>
 
                 <div class="button">
@@ -60,5 +63,4 @@
         
     </body>
     
-
 </html>
