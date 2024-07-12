@@ -1,5 +1,5 @@
 document.addEventListener('submit', (event) => {
-    event.preventDefault();
+    event.preventDefault(); 
     const submit = document.getElementById('test');
     if (test) {
         console.log(test.innerHTML);
