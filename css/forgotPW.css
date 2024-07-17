@@ -1,3 +1,6 @@
+
+/* ----- ẢNH BÊN TRÁI ---*/
+
 .left {
     position: relative;
   }
@@ -50,7 +53,8 @@
   color: #5680F9;
   } 
 
-/* Form bên phải*/
+/*---------- Form bên phải -----------*/
+
 .right-form {
     /* display: flex;
     flex-wrap: wrap; */
